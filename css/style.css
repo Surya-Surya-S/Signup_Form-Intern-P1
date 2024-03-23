@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #faeced;
+}
+
+.form {
+    width: 24%;
+    height: 96vh;
+    margin: 60px auto;
+}
+
+h2 {
+    font-size: 1.6rem;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #cf4a4e;
+    margin-bottom: 40px;
+}
+
+.input_field {
+    margin-bottom: 8px;
+}
+
+.error {
+    color: red;
+}
+
+.input_group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+label{
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+input {
+    outline: none;
+    border: 0;
+    padding: 8px 6px;
+    border-radius: 4px;
+    margin-top: 8px;
+}
+
+form button {
+    width: 6.7rem;
+    font-size: 1.2rem;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    background-color: #cf4a4e;
+    color: #faeced;
+    outline: none;
+    border: 0;
+    border-radius: 6px;
+    padding: 10px 18px;
+    margin: 0 auto;
+    cursor: pointer;
+}
